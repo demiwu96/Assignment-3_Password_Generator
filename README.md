@@ -1,4 +1,4 @@
-# Assignment-3_Password_Generator
+# Random Password Generator
 
 ## Description
 This is a random password generator website. The user can choose the length of the password and the criteria for the password.
