@@ -1,6 +1,7 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+// Array of characters
 var specialChar = ['\"', '\'', '!', '#', '$', '%', '&', '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', ']', '^', '_', '`', '{', '|', '}', '~'];
 var lowercase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q"
   , "r", "s", "t", "u", "v", "w", "x", "y", "z"]
@@ -22,6 +23,7 @@ function randomNum(array) {
   return randomIndex;
 }
 
+// Generate password
 function generatePassword() {
   // Length variable gives the length of the password user desires
   var length = prompt("How long is the password? (minimum 8, maximum 128 characters)");
